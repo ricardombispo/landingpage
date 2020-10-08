@@ -11,6 +11,17 @@
   justify-content: space-between;
 }
 
+#header span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#header-img {
+  width: 150px;
+}
+
 #nav-bar ul {
   display: flex;
   flex-direction: row;
