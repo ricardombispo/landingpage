@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 0.8em;
+  }
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+}
