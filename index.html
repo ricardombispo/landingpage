@@ -22,42 +22,48 @@
 
   <body>
     <header id="header">
-      <span
+      <span id="header-menu"
         ><img id="header-img" src="./logo.png" alt="rock on rocks" />
-        <p>ROCK ON rocks</p></span
-      >
+      </span>
       <nav id="nav-bar">
         <ul>
-          <li><a class="nav-link" href="#item1">item1</a></li>
-          <li><a class="nav-link" href="#item2">item2</a></li>
-          <li><a class="nav-link" href="#item3">item3</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#how-to-paint">How to Paint</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
         </ul>
       </nav>
     </header>
-    <p>For your crafts, nature made.</p>
-    <video id="video">
-      <source src="" type="" />
-    </video>
+    <main>
+      <p>For your crafts, nature made.</p>
 
-    <form
-      id="form"
-      action="https://www.freecodecamp.com/email-submit"
-      method="POST"
-    >
-      <label for="email">Email</label>
-      <input
-        id="email"
-        name="email"
-        type="email"
-        placeholder="Enter your email"
-      />
-      <input id="submit" type="submit" />
-    </form>
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="POST"
+      >
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="Enter your email address"
+        />
+        <input id="submit" type="submit" />
+      </form>
 
-    <div id="item1"></div>
+      <div id="features"></div>
 
-    <div id="item2"></div>
-
-    <div id="item3"></div>
+      <section id="how-to-paint">
+        <iframe
+          id="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/VN0pmfPn4VI?start=5"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <div id="pricing"></div>
+    </main>
   </body>
 </html>
