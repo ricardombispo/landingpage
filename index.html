@@ -13,6 +13,10 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/7f4c303d13.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="index.css" />
     <script
       src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
@@ -34,7 +38,7 @@
       </nav>
     </header>
     <main>
-      <p>For your crafts, nature made.</p>
+      <p id="slogan">For your crafts, nature made.</p>
 
       <form
         id="form"
@@ -47,10 +51,15 @@
           type="email"
           placeholder="Enter your email address"
         />
-        <input id="submit" type="submit" />
+        <input id="submit" type="submit" value="Start Your Arts Journey" />
       </form>
 
-      <div id="features"></div>
+      <div id="features">
+        <div id="shipping-feature">
+          <i class="fas fa-shipping-fast"></i>
+          Quick and reliable shipping
+        </div>
+      </div>
 
       <section id="how-to-paint">
         <iframe
@@ -63,6 +72,7 @@
           allowfullscreen
         ></iframe>
       </section>
+
       <div id="pricing"></div>
     </main>
   </body>

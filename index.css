@@ -7,21 +7,22 @@ body {
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
+  max-width: 100%;
 }
 
 #header-menu {
   display: flex;
   flex-flow: row wrap;
-  font-size: 2rem;
 }
 
 #header-img {
-  width: 300px;
+  width: 250px;
 }
 
 #nav-bar ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   list-style: none;
 }
 
@@ -30,10 +31,19 @@ body {
   white-space: nowrap;
 }
 
+#nav-bar ul li a {
+  font-size: 1.1rem;
+  color: black;
+}
+
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#slogan {
+  font-size: 1.6em;
 }
 
 #form {
@@ -44,16 +54,38 @@ main {
 }
 
 #submit {
-  background-color: #ff810a;
-  margin: 0.4em auto;
+  background-color: #ffab5c;
+  font-size: 1.1;
+  font-weight: 500;
+  margin: 0.9em auto;
   width: 70%;
 }
 
+#features {
+  margin-top: 80px;
+}
+
+.fa-shipping-fast {
+  font-size: 4em;
+  color: #a1ba89;
+}
+
+#how-to-paint {
+  margin-top: 80px;
+}
+
 @media only screen and (max-width: 700px) {
-  body {
-    font-size: 0.8em;
+  #nav-bar ul {
+    flex-direction: column;
   }
-  #header-img {
-    width: 180px;
+  #nav-bar ul li {
+    padding-right: 1em;
+  }
+  #nav-bar ul li a {
+    padding: 0 0;
+  }
+  #nav-bar {
+    width: auto;
+    margin: auto;
   }
 }
