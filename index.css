@@ -35,7 +35,7 @@ body {
 }
 
 #nav-bar ul li a {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: black;
 }
 
@@ -150,11 +150,25 @@ h4 {
 footer {
   max-width: 1000px;
   margin: auto;
+  padding-right: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  background-color: #d2d6da;
+  background-color: #c7ccd1;
+}
+
+#footer-links a {
+  color: black;
+  outline: 0px;
+  font-size: 1.2em;
+  text-decoration: none;
+  margin-top: 0.4em;
+  margin-left: 2em;
+}
+#footer-links a:hover {
+  font-size: 1.3em;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 700px) {
