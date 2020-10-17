@@ -115,6 +115,12 @@ h4 {
   margin-bottom: 30px;
 }
 
+#pricing,
+#features,
+#how-to-paint {
+  scroll-margin-top: 60px;
+}
+
 .set {
   width: calc(100% / 3);
   margin-left: 20px;
