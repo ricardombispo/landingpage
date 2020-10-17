@@ -1,20 +1,23 @@
 body {
   background-color: #efe9f4;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding-top: 60px;
 }
 
 #header {
-  margin: 5px 10px;
+  margin: 0px 10px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   max-width: 100%;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: #efe9f4;
 }
-
-/* #header-menu {
-  display: flex;
-  flex-flow: row wrap;
-} */
 
 #header-img {
   width: 250px;
