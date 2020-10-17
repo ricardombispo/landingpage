@@ -29,6 +29,7 @@ body {
   flex-direction: row;
   justify-content: center;
   list-style: none;
+  margin-right: 30px;
 }
 
 #nav-bar ul li {
